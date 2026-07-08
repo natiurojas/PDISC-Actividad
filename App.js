@@ -28,7 +28,7 @@ export default function App() {
 
       <View style={styles.footer}>
         <Text style={styles.footerText}>© 2026 Devil May Cry. Todos los derechos reservados.</Text>
-        <Text style={styles.footerSubtext}>Contacto: info@tienda.com | Tel: +1 234 567 890</Text>
+        <Text style={styles.footerSubtext}>Contacto: devilmaycry.com | Tel: +54 11 1234-5678</Text>
       </View>
 
       <StatusBar style="auto" />
