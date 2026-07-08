@@ -27,7 +27,7 @@ export default function App() {
       </ScrollView>
 
       <View style={styles.footer}>
-        <Text style={styles.footerText}>© 2026 Tienda ReactNative. Todos los derechos reservados.</Text>
+        <Text style={styles.footerText}>© 2026 Devil May Cry. Todos los derechos reservados.</Text>
         <Text style={styles.footerSubtext}>Contacto: info@tienda.com | Tel: +1 234 567 890</Text>
       </View>
 
