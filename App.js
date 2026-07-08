@@ -11,7 +11,7 @@ export default function App() {
       <Image source={HeaderImg} style={styles.header} />
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.tarjetas}>
-          <Text style={styles.Titulo}>Producto1</Text>
+          <Text style={styles.Titulo}>Dante Sparda</Text>
           <Image source={Logo} style={styles.ImgProducto} />
         </View>
 
