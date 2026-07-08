@@ -2,11 +2,13 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
 
 import Logo from './assets/Productos/a.jpg'
+import HeaderImg from './assets/Productos/Imagen.jpg'
 
 export default function App() {
   return (
     // Tres Tarjetas sobre productos
     <View style={styles.container}>
+      <Image source={HeaderImg} style={styles.header} />
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.tarjetas}>
           <Text style={styles.Titulo}>Producto1</Text>
@@ -35,6 +37,11 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  header: {
+    width: '100%',
+    height: 180,
+    resizeMode: 'cover',
+  },
   container: {
     flex: 1,
     backgroundColor: '#FDF0D5',
