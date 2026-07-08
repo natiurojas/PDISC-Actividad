@@ -21,7 +21,7 @@ export default function App() {
         </View>
 
         <View style={styles.tarjetas}>
-          <Text style={styles.Titulo}>Producto3</Text>
+          <Text style={styles.Titulo}>V</Text>
           <Image source={Logo} style={styles.ImgProducto} />
         </View>
       </ScrollView>
