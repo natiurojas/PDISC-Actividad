@@ -11,12 +11,12 @@ export default function App() {
       <Image source={HeaderImg} style={styles.header} />
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.tarjetas}>
-          <Text style={styles.Titulo}>Dante Sparda</Text>
+          <Text style={styles.Titulo}>𝔇𝔞𝔫𝔱𝔢 𝔖𝔭𝔞𝔯𝔡𝔞</Text>
           <Image source={Logo} style={styles.ImgProducto} />
         </View>
 
         <View style={styles.tarjetas}>
-          <Text style={styles.Titulo}>Vergil Sparda</Text>
+          <Text style={styles.Titulo}>V𝔢𝔯𝔤𝔦𝔩 𝔖𝔭𝔞𝔯𝔡𝔞</Text>
           <Image source={Logo} style={styles.ImgProducto} />
         </View>
 
