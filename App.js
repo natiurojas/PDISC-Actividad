@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
-    backgroundColor: '#FDF0D5',
+    backgroundColor: '#000000',
     alignItems: 'center',
   },
   scrollContent: {
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     paddingVertical: 20,
   },
   tarjetas: {
-    backgroundColor: '#FDF0D5',
+    backgroundColor: '#000000',
     borderRadius: 15,
     padding: 20,
     marginVertical: 10,
