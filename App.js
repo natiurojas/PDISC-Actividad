@@ -2,9 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
 
 import Logo from './assets/Productos/dante.gif'
-import HeaderImg from './assets/Productos/Imagen.jpg'
 import VergilImg from './assets/Productos/vergil.gif'
-import VImg from './assets/Productos/v.gif'
+import NeroImg from './assets/Productos/nero.gif'
+import HeaderImg from './assets/Productos/Imagen.jpg'
 import DanteTitle from './assets/Productos/dantesparda00.png'
 
 export default function App() {
@@ -27,7 +27,7 @@ export default function App() {
 
         <View style={styles.tarjetas}>
           <Text style={styles.Titulo}>𝔑𝔢𝔯𝔬 𝔖𝔭𝔞𝔯𝔡𝔞</Text>
-          <Image source={VImg} style={styles.ImgProducto} />
+          <Image source={NeroImg} style={styles.ImgProducto} />
           <Text style={styles.descripcion}>Nero es el sobrino de Dante y Vergil, y uno de los personajes principales de la saga Devil May Cry. Es el hijo de la humana Maria e el nieto de Sparda, lo que le otorga un poder demoníaco heredado.</Text>
         </View>
       </ScrollView>
