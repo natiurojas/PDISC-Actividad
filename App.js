@@ -13,18 +13,24 @@ export default function App() {
       <Image source={HeaderImg} style={styles.header} />
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.tarjetas}>
-          <Text style={styles.Titulo}>𝔇𝔞𝔫𝔱𝔢 𝔖𝔭𝔞𝔯𝔡𝔞</Text>
+          <Text style={styles.Titulo}>Producto1</Text>
           <Image source={Logo} style={styles.ImgProducto} />
+          <Text style={styles.descripcion}>Descripción del producto 1. Material de alta calidad y diseño exclusivo.</Text>
+          <Text style={styles.precio}>$25.00</Text>
         </View>
 
         <View style={styles.tarjetas}>
-          <Text style={styles.Titulo}>V𝔢𝔯𝔤𝔦𝔩 𝔖𝔭𝔞𝔯𝔡𝔞</Text>
-          <Image source={VergilImg} style={styles.ImgProducto} />
+          <Text style={styles.Titulo}>Producto2</Text>
+          <Image source={Logo} style={styles.ImgProducto} />
+          <Text style={styles.descripcion}>Descripción del producto 2. Ideal para cualquier ocasión especial.</Text>
+          <Text style={styles.precio}>$35.00</Text>
         </View>
 
         <View style={styles.tarjetas}>
-          <Text style={styles.Titulo}>V</Text>
-          <Image source={VImg} style={styles.ImgProducto} />
+          <Text style={styles.Titulo}>Producto3</Text>
+          <Image source={Logo} style={styles.ImgProducto} />
+          <Text style={styles.descripcion}>Descripción del producto 3. Perfecto para regalar o disfrutar tú mismo.</Text>
+          <Text style={styles.precio}>$45.00</Text>
         </View>
       </ScrollView>
 
@@ -79,6 +85,21 @@ const styles = StyleSheet.create({
     margin: 10,
     color: '#780000',
     fontWeight: 'bold',
+  },
+  descripcion: {
+    textAlign: 'center',
+    fontSize: 14,
+    color: '#003049',
+    marginHorizontal: 10,
+    marginTop: 10,
+    lineHeight: 20,
+  },
+  precio: {
+    textAlign: 'center',
+    fontSize: 22,
+    color: '#C1121F',
+    fontWeight: 'bold',
+    marginTop: 10,
   },
   footer: {
     width: '100%',
