@@ -5,6 +5,7 @@ import Logo from './assets/Productos/dante.gif'
 import HeaderImg from './assets/Productos/Imagen.jpg'
 import VergilImg from './assets/Productos/vergil.gif'
 import VImg from './assets/Productos/v.gif'
+import DanteTitle from './assets/Productos/dantesparda00.png'
 
 export default function App() {
   return (
@@ -13,24 +14,21 @@ export default function App() {
       <Image source={HeaderImg} style={styles.header} />
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.tarjetas}>
-          <Text style={styles.Titulo}>𝔇𝔞𝔫𝔱𝔢 𝔖𝔭𝔞𝔯𝔡𝔞</Text>
+          <Image source={DanteTitle} style={styles.tituloImg} />
           <Image source={Logo} style={styles.ImgProducto} />
-          <Text style={styles.descripcion}>Descripción del producto 1. Material de alta calidad y diseño exclusivo.</Text>
-          <Text style={styles.precio}>$25.00</Text>
+          <Text style={styles.descripcion}>Dante es el protagonista principal de la franquicia Devil May Cry y el personaje jugable principal en la mayoría de los juegos de la serie. Es el segundo hijo del demonio Sparda y la humana Eva, el hermano gemelo menor de Vergil y el tío de Nero.</Text>
         </View>
 
         <View style={styles.tarjetas}>
-          <Text style={styles.Titulo}>Producto2</Text>
-          <Image source={Logo} style={styles.ImgProducto} />
-          <Text style={styles.descripcion}>Descripción del producto 2. Ideal para cualquier ocasión especial.</Text>
-          <Text style={styles.precio}>$35.00</Text>
+          <Text style={styles.Titulo}>V𝔢𝔯𝔤𝔦𝔩 𝔖𝔭𝔞𝔯𝔡𝔞</Text>
+          <Image source={VergilImg} style={styles.ImgProducto} />
+          <Text style={styles.descripcion}>Vergil es el hermano gemelo mayor de Dante y uno de los principales antagonistas de la saga Devil May Cry. Tras la muerte de su madre en la infancia, Vergil y Dante tomaron caminos separados: Vergil rechazó su humanidad y abrazó su herencia demoníaca, mientras que su hermano menor aceptó su humanidad y rechazó inicialmente lo demoníaco. Estoico y reservado, Vergil está dispuesto a hacer cualquier cosa para obtener el poder de su padre, Sparda.</Text>
         </View>
 
         <View style={styles.tarjetas}>
-          <Text style={styles.Titulo}>Producto3</Text>
-          <Image source={Logo} style={styles.ImgProducto} />
-          <Text style={styles.descripcion}>Descripción del producto 3. Perfecto para regalar o disfrutar tú mismo.</Text>
-          <Text style={styles.precio}>$45.00</Text>
+          <Text style={styles.Titulo}>𝔑𝔢𝔯𝔬 𝔖𝔭𝔞𝔯𝔡𝔞</Text>
+          <Image source={VImg} style={styles.ImgProducto} />
+          <Text style={styles.descripcion}>Nero es el sobrino de Dante y Vergil, y uno de los personajes principales de la saga Devil May Cry. Es el hijo de la humana Maria e el nieto de Sparda, lo que le otorga un poder demoníaco heredado.</Text>
         </View>
       </ScrollView>
 
@@ -73,6 +71,12 @@ const styles = StyleSheet.create({
     shadowRadius: 5,
     elevation: 5,
     width: 300,
+  },
+  tituloImg: {
+    width: 200,
+    height: 60,
+    resizeMode: 'contain',
+    marginBottom: 10,
   },
   ImgProducto: {
     width: 250,
