@@ -13,7 +13,7 @@ export default function App() {
       <Image source={HeaderImg} style={styles.header} />
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.tarjetas}>
-          <Text style={styles.Titulo}>Producto1</Text>
+          <Text style={styles.Titulo}>𝔇𝔞𝔫𝔱𝔢 𝔖𝔭𝔞𝔯𝔡𝔞</Text>
           <Image source={Logo} style={styles.ImgProducto} />
           <Text style={styles.descripcion}>Descripción del producto 1. Material de alta calidad y diseño exclusivo.</Text>
           <Text style={styles.precio}>$25.00</Text>
