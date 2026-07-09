@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
 import Logo from './assets/Productos/dante.gif'
 import HeaderImg from './assets/Productos/Imagen.jpg'
 import VergilImg from './assets/Productos/vergil.gif'
+import VImg from './assets/Productos/v.gif'
 
 export default function App() {
   return (
@@ -23,7 +24,7 @@ export default function App() {
 
         <View style={styles.tarjetas}>
           <Text style={styles.Titulo}>V</Text>
-          <Image source={Logo} style={styles.ImgProducto} />
+          <Image source={VImg} style={styles.ImgProducto} />
         </View>
       </ScrollView>
 
