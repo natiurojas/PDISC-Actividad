@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
 
 import Logo from './assets/Productos/dante.gif'
 import HeaderImg from './assets/Productos/Imagen.jpg'
+import VergilImg from './assets/Productos/vergil.gif'
 
 export default function App() {
   return (
@@ -17,7 +18,7 @@ export default function App() {
 
         <View style={styles.tarjetas}>
           <Text style={styles.Titulo}>V𝔢𝔯𝔤𝔦𝔩 𝔖𝔭𝔞𝔯𝔡𝔞</Text>
-          <Image source={Logo} style={styles.ImgProducto} />
+          <Image source={VergilImg} style={styles.ImgProducto} />
         </View>
 
         <View style={styles.tarjetas}>
