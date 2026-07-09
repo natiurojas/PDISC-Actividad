@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
 
-import Logo from './assets/Productos/a.jpg'
-import HeaderImg from './assets/Productos/dante.gif'
+import Logo from './assets/Productos/dantejm p.jpg'
+import HeaderImg from './assets/Productos/Imagen.jpg'
 
 export default function App() {
   return (
