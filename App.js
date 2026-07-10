@@ -5,7 +5,7 @@ import Logo from './assets/Productos/dante.gif'
 import VergilImg from './assets/Productos/vergil.gif'
 import NeroImg from './assets/Productos/nero.gif'
 import HeaderImg from './assets/Productos/Imagen.jpg'
-import DanteTitle from './assets/Productos/dantesparda00.png'
+import DanteTitle from './assets/Productos/dantesparda01.png'
 
 export default function App() {
   return (
@@ -28,7 +28,7 @@ export default function App() {
         <View style={styles.tarjetas}>
           <Text style={styles.Titulo}>𝔑𝔢𝔯𝔬 𝔖𝔭𝔞𝔯𝔡𝔞</Text>
           <Image source={NeroImg} style={styles.ImgProducto} />
-          <Text style={styles.descripcion}>Nero es el sobrino de Dante y Vergil, y uno de los personajes principales de la saga Devil May Cry. Es el hijo de la humana Maria e el nieto de Sparda, lo que le otorga un poder demoníaco heredado.</Text>
+          <Text style={styles.descripcion}>Nero es el deuteragonista de la franquicia Devil May Cry. Apareció por primera vez como personaje jugable en Devil May Cry 4 y posteriormente en Devil May Cry 5. Se crió en Fortuna y sirvió como Caballero Sagrado en la Orden de la Espada, un grupo religioso que venera a Sparda y lucha para proteger al mundo de los demonios. Más adelante se revela que es hijo de Vergil, sobrino del legendario cazador de demonios Dante y nieto del legendario caballero oscuro Sparda.</Text>
         </View>
       </ScrollView>
 
